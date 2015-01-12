@@ -13,10 +13,10 @@
 @headerFontFamily: "Roboto Slab", @baseFontFamily;
 @headerFontColor: #151515;
 @headerLinkColor: @headerFontColor;
-@secondaryFontFamily: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+@secondaryFontFamily: "Open Sans Light", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
 @preFontFamily: "Consolas", Courier, monospace;
 @tableFontFamily: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-@linkColor: #3498db;
+@linkColor: #00AADC;
 @linkColorHover: darken(@linkColor, 50%);
 @borderColor: #ecf0f1;
 @subtleColor: rgba(0,0,0,0.05);
@@ -32,7 +32,7 @@
 body {
     background-color: @bodyBackgroundColor;
     color: @baseFontColor;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 100;
     line-height: 1.6em;
     margin: 0;
@@ -64,7 +64,7 @@ a:focus, a:hover {
 }
 
 p, li, dt, dd {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 100;
     line-height: 30px;
 }
@@ -100,9 +100,9 @@ p code {
 h1 {
     color: @headerFontColor;
     font-family: @headerFontFamily;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 400;
-    line-height: 42px;
+    line-height: 38px;
     margin: 0;
     padding: 0;
 }
@@ -120,9 +120,8 @@ h1 {
 article.preview {
     margin-bottom: 4em;
     p.readmore {
-      font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+      font-family: "Open Sans Light", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
       margin-top: 1em;
-      text-transform: uppercase;
       font-weight: 400;
     }
 }
@@ -284,7 +283,6 @@ h1.post-title a:focus, h1.post-title a:hover, h1.blog-title a:focus, h1.blog-tit
 h2 {
     font-family: @secondaryFontFamily;
     margin-top: 2em;
-    text-transform: uppercase;
     font-weight: 300;
 }
 
@@ -323,10 +321,9 @@ footer {
     footer section {
         font-family: @secondaryFontFamily;
         font-weight: 300;
-        font-size: 18px;
+        font-size: 12px;
         margin: 0 auto;
         max-width: 600px;
-        text-transform: uppercase;
         width: 90%;
     }
 
