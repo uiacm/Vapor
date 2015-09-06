@@ -24,7 +24,7 @@
         {{#if @blog.cover}}<a href="{{@blog.url}}"><img id="blog-cover" src="{{@blog.cover}}" alt="Blog Cover" />{{/if}}
         <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
         {{> header-description}}
-        {{> menu}}
+        {{!> menu}}
     </header>
 
     {{{body}}}
